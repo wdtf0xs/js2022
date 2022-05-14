@@ -116,4 +116,29 @@
 // users(array);
 
 // - створити функцію яка повертає найменьше число з масиву
+// let numbers = [100, 3956, 95, 15, 42, 64];
+// function minNum(numbers) {
+//     let min = numbers[0];
+//     for (let number of numbers) {
+//         if (number < min) {
+//             min = number;
+//         }
+//     }
+//     return min;
+// }
+//
+// console.log(minNum(numbers));
+
+
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+// let numbers = [100, 3956];
+// function arr(numbers) {
+//     let sum = 0;
+//     for (const number of numbers) {
+//         sum += number;
+//     }
+//     return sum;
+// }
+//
+// console.log(arr(numbers));
